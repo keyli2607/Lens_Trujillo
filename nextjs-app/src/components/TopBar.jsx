@@ -8,7 +8,7 @@ export default function TopBar() {
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
-            Galeria San Antonio, Jr. Gamarra N° 778, Trujillo 13001
+            Pje. Albarracin N° 209 int 109 Trujillo
           </span>
           <span className="top-bar-item">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">

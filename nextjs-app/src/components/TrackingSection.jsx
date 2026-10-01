@@ -334,7 +334,7 @@ export default function TrackingSection() {
                               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                               <circle cx="12" cy="10" r="3"></circle>
                             </svg>
-                            Galería San Antonio, Jr. Gamarra N° 778
+                            Pje. Albarracin N° 209 int 109, Trujillo
                           </span>
                           <span className="status-box-pickup-item">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -471,7 +471,7 @@ export default function TrackingSection() {
               </div>
               <div className="faq-card-q">Horario de recojo</div>
               <div className="faq-card-a">
-                <strong>Galería San Antonio, Jr. Gamarra N° 778.</strong>
+                <strong>Pje. Albarracin N° 209 int 109 Trujillo.</strong>
                 <br />
                 Lun–Sáb: 9:00 a.m.–9:00 p.m. &nbsp;|&nbsp; Dom: 9:30 a.m.–2:00 p.m.
                 <br />

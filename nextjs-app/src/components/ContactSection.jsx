@@ -165,7 +165,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <div className="info-title">Dirección de la Óptica</div>
-                <div className="info-val">Galeria San Antonio, Jr. Gamarra N° 778, Trujillo 13001</div>
+                <div className="info-val">Pje. Albarracin N° 209 int 109 Trujillo</div>
               </div>
             </div>
 
@@ -201,7 +201,7 @@ export default function ContactSection() {
             <div className="map-container">
               <iframe
                 title="Ubicación Lens Group Trujillo en Google Maps"
-                src="https://maps.google.com/maps?q=Galeria%20San%20Antonio%2C%20Jr.%20Gamarra%20N%C2%B0%20778%2C%20Trujillo%2013001&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=Pje.%20Albarracin%20N%C2%B0%20209%20int%20109%20Trujillo&t=&z=17&ie=UTF8&iwloc=&output=embed"
                 allowFullScreen=""
                 loading="lazy"
               ></iframe>

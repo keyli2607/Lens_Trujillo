@@ -60,7 +60,7 @@ const ORDERS_DB = {
     receivedDate: '08 de Marzo, 2026',
     estimatedDate: '10 de Marzo, 2026',
     service: 'Montura Ray-Ban Round Metal + Cristales Antirreflejo Blue Protect UV400',
-    branch: 'Galería San Antonio, Jr. Gamarra N° 778, Trujillo 13001',
+    branch: 'Pje. Albarracin N° 209 int 109 Trujillo',
     currentStep: 3,
     statusTitle: '¡Listo para Recoger en Tienda!',
     statusBadgeText: 'Listo',
@@ -81,7 +81,7 @@ const ORDERS_DB = {
     receivedDate: '09 de Marzo, 2026',
     estimatedDate: '11 de Marzo, 2026',
     service: 'Cristales Fotocromáticos Transition Gen 8 + Montura Titanio Flexible',
-    branch: 'Galería San Antonio, Jr. Gamarra N° 778, Trujillo 13001',
+    branch: 'Pje. Albarracin N° 209 int 109 Trujillo',
     currentStep: 2,
     statusTitle: 'En Proceso de Laboratorio',
     statusBadgeText: 'Proceso',
@@ -102,7 +102,7 @@ const ORDERS_DB = {
     receivedDate: '09 de Marzo, 2026',
     estimatedDate: '12 de Marzo, 2026',
     service: 'Lunas Progresivas Digitales FreeForm + Montura Vogue Eyewear',
-    branch: 'Galería San Antonio, Jr. Gamarra N° 778, Trujillo 13001',
+    branch: 'Pje. Albarracin N° 209 int 109 Trujillo',
     currentStep: 2,
     statusTitle: 'En Proceso de Laboratorio',
     statusBadgeText: 'Proceso',
@@ -123,7 +123,7 @@ const ORDERS_DB = {
     receivedDate: '10 de Marzo, 2026',
     estimatedDate: '13 de Marzo, 2026',
     service: 'Gafas de Sol Oakley Polarizadas con Graduación Espejada',
-    branch: 'Galería San Antonio, Jr. Gamarra N° 778, Trujillo 13001',
+    branch: 'Pje. Albarracin N° 209 int 109 Trujillo',
     currentStep: 1,
     statusTitle: 'En Cola de Espera',
     statusBadgeText: 'Cola',
@@ -144,7 +144,7 @@ const ORDERS_DB = {
     receivedDate: '04 de Marzo, 2026',
     estimatedDate: '07 de Marzo, 2026',
     service: 'Montura Ultraligera de Titanio + Cristales Monofocales Crizal',
-    branch: 'Galería San Antonio, Jr. Gamarra N° 778, Trujillo 13001',
+    branch: 'Pje. Albarracin N° 209 int 109 Trujillo',
     currentStep: 3,
     statusTitle: '¡Listo para Recoger en Tienda!',
     statusBadgeText: 'Listo',
@@ -473,7 +473,7 @@ function createNewOrderRecord({ customer, service, phone, dni, notes }) {
     receivedDate,
     estimatedDate,
     service,
-    branch: 'Galería San Antonio, Jr. Gamarra N° 778, Trujillo 13001',
+    branch: 'Pje. Albarracin N° 209 int 109 Trujillo',
     estado: 'cola',
     currentStep: 1,
     statusTitle: firstStatus.statusTitle,
@@ -845,7 +845,7 @@ function renderOrderResult(order) {
               <div class="status-box-pickup-info">
                 <span class="status-box-pickup-item">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                  Galería San Antonio, Jr. Gamarra N° 778
+                  Pje. Albarracin N° 209 int 109, Trujillo
                 </span>
                 <span class="status-box-pickup-item">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
@@ -962,3 +962,4 @@ window.addEventListener('resize', () => {
     }
   }
 });
+

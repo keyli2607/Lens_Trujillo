@@ -90,7 +90,7 @@ function mapOrder(order) {
     receivedDate: formatDate(order.creado_en),
     estimatedDate: formatDate(sale.fecha_entrega, "Por confirmar"),
     service: [sale.montura_descripcion, sale.luna_descripcion].filter(Boolean).join(" + ") || "Servicio óptico registrado",
-    branch: branch.direccion || "Galería San Antonio, Jr. Gamarra N° 778, Trujillo 13001",
+    branch: branch.direccion || "Pje. Albarracin N° 209 int 109 Trujillo",
     currentStep,
     estado: statusDef.key,
     statusTitle: statusDef.statusTitle,

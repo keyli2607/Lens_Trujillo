@@ -2,7 +2,7 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       stars: "★★★★★",
-      text: '"Compré mis gafas de sol Ray-Ban Aviator y comprobé el número de serie directamente en la web oficial: ¡100% auténticos! La atención en su local de la Galería San Antonio fue impecable y rápida."',
+      text: '"Compré mis gafas de sol Ray-Ban Aviator y comprobé el número de serie directamente en la web oficial: ¡100% auténticos! La atención en su local de la Pje. Albarracin N° 209 int 109, Trujillo fue impecable y rápida."',
       avatar: "CA",
       author: "Carlos Alva Ramos",
       loc: "Trujillo • Local Guide",
@@ -30,7 +30,7 @@ export default function TestimonialsSection() {
           <span className="section-tag">Opiniones de Clientes</span>
           <h2 className="section-title">La Confianza de Trujillo nos Respalda</h2>
           <p className="section-subtitle">
-            Clientes reales que visitaron nuestro local en Jr. Gamarra 778 y comprobaron la autenticidad, garantía y
+            Clientes reales que visitaron nuestro local en Pje. Albarracin N° 209 int 109 y comprobaron la autenticidad, garantía y
             trato personalizado.
           </p>
         </div>
@@ -63,7 +63,7 @@ export default function TestimonialsSection() {
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
-                Galeria San Antonio, Jr. Gamarra N° 778, Trujillo
+                Pje. Albarracin N° 209 int 109, Trujillo
               </div>
             </div>
           </div>
