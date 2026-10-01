@@ -1,0 +1,80 @@
+/* ==========================================================================
+   JB LENS — VARIABLES & DESIGN SYSTEM
+   Paleta extraída del logo: navy, azul medio, celeste cristal, lavanda
+   ========================================================================== */
+
+:root {
+  /* Brand Primary Colors — Navy Blue (marcos de gafas, texto principal) */
+  --color-primary-950: #0a1630;
+  --color-primary-900: #0f1f42;
+  --color-primary-800: #162c5a;
+  --color-primary-700: #1e3a72;
+  --color-primary-600: #27498a;
+  --color-primary-500: #3160a8;
+  --color-primary-100: #dce8f8;
+  --color-primary-50:  #eef3fc;
+
+  /* Brand Secondary & Accent Colors — Celeste/Azul Cristal (cristales del logo) */
+  --color-teal-900: #1a3d6e;
+  --color-teal-800: #1f4d8c;
+  --color-teal-700: #2563a5;
+  --color-teal-600: #3b82c4;
+  --color-teal-500: #5ba0dd;
+  --color-teal-400: #7ab8f5;
+  --color-teal-300: #9ccdf8;
+  --color-teal-100: #d6eafc;
+  --color-teal-50:  #eef5fd;
+
+  /* Accent Gold / Luxury */
+  --color-gold-500: #f59e0b;
+  --color-gold-600: #d97706;
+  --color-gold-100: #fef3c7;
+
+  /* Neutrals & Dark Charcoal for text */
+  --color-dark-900: #0f172a;
+  --color-dark-800: #1e293b;
+  --color-dark-700: #334155;
+  --color-dark-600: #475569;
+  --color-dark-500: #64748b;
+  --color-dark-400: #94a3b8;
+  --color-dark-300: #cbd5e1;
+  --color-dark-200: #e2e8f0;
+  --color-dark-100: #f1f5f9;
+  --color-dark-50:  #f8fafc;
+  --color-white:    #ffffff;
+
+  /* Functional Status */
+  --color-whatsapp: #25d366;
+  --color-whatsapp-dark: #128c7e;
+  --color-success:  #10b981;
+  --color-danger:   #ef4444;
+
+  /* Typography */
+  --font-heading: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Shadows — ahora con tono azul navy */
+  --shadow-xs: 0 1px 2px 0 rgba(15, 31, 66, 0.05);
+  --shadow-sm: 0 2px 8px -2px rgba(15, 31, 66, 0.08);
+  --shadow-md: 0 6px 18px -4px rgba(15, 31, 66, 0.1), 0 3px 6px -2px rgba(15, 31, 66, 0.06);
+  --shadow-lg: 0 14px 30px -8px rgba(15, 31, 66, 0.14), 0 6px 12px -3px rgba(15, 31, 66, 0.08);
+  --shadow-xl: 0 24px 50px -12px rgba(15, 31, 66, 0.22);
+  --shadow-glow-teal: 0 0 25px rgba(59, 130, 196, 0.35);
+  --shadow-glow-navy: 0 0 25px rgba(15, 31, 66, 0.25);
+
+  /* Border Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Container */
+  --container-max: 1280px;
+  --container-pad: 1.5rem;
+}
